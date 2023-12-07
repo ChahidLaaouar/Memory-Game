@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory-Game</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="begin()">
+
+    <div class="container">
+        <h3>Memory Battle!</h3>
+        <div class="players">
+            <div class="player-screen">
+                <h4>Player 1</h4>
+                <img class="img-inside" src="img/player-1.jpg">
+                <p id="p1">Points: 0</p>          
+            </div>
+            <div class="player-screen">
+                <h4>Tijd</h4>
+                <p id="time">20</p>
+                <h4>Huidige player</h4>
+                <p id="currentplayer">Player 1</p>
+                
+            </div>
+            <div class="player-screen">
+                <h4>Player 2</h4>
+                <img class="img-inside" src="img/player-2.jpg">
+                <p id="p2">Points: 0</p>
+            </div>
+
+        </div>
+        <br>
+
+
+
+        <div class="grid-container" id="field">
+        </div>
+    </div>
+    
+</body>
+</html>
